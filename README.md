@@ -33,7 +33,7 @@ opencv-python 45.2.54
 numpy 1.21.5  
 visdom  0.1.8.9  
 
-训练数据集：VOC2007,下载链接：!(http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html)
+训练数据集：VOC2007,  下载链接：(http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html)
 
 
 
