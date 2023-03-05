@@ -36,14 +36,14 @@ visdom  0.1.8.9
 训练/测试数据集：VOC2007,  下载链接：(http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html)
 把数据集存在一个不包含中文路径的任意文件中。
 
-开始训练，执行train.py
-num_class=20  数据集的类别数
-img_size = 224  图片的长宽尺寸
-batch_size=128  单次训练的数据量
-epochs=2001  所有数据训练的次数
-learning_rate=0.01  初始学习率
-model_weight = r''  预训练模型文件路径，刚开始可不填写，在后续追加训练中，可以填入保存的模型路径。
-data_path = r'C:\Users\Administrator\Desktop\VOCdevkit\VOC2007'  数据集的路径 
+开始训练，执行train.py  
+num_class=20  数据集的类别数  
+img_size = 224  图片的长宽尺寸  
+batch_size=128  单次训练的数据量  
+epochs=2001  所有数据训练的次数  
+learning_rate=0.01  初始学习率  
+model_weight = r''  预训练模型文件路径，刚开始可不填写，在后续追加训练中，可以填入保存的模型路径    
+data_path = r'C:\Users\Administrator\Desktop\VOCdevkit\VOC2007'  数据集的路径   
 
 
 
