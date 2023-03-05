@@ -24,5 +24,6 @@
 ### 24、驾驶人员睡意检测
 ### 25、Swin_yolov1目标检测
 这一部分我们尝试让swin_transformer结合最典型的单阶段目标检测算法(Yolov1)
+！https://github.com/124578-chj/python-image/blob/main/%E9%A1%B9%E7%9B%AE%E7%B4%A0%E6%9D%90/swin_yolov1.png
 ### 26、vit_分类方法应用
 
