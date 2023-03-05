@@ -24,7 +24,7 @@
 ### 24、驾驶人员睡意检测
 ### 25、Swin_yolov1目标检测
 这一部分我们尝试让swin_transformer结合最典型的单阶段目标检测算法(Yolov1),用来实现一个目标检测算法。
-![Siwn_yolov1框架图](https://github.com/124578-chj/python-image/blob/main/%E9%A1%B9%E7%9B%AE%E7%B4%A0%E6%9D%90/swin_yolov1.png)
+![Siwn_yolov1框架图](https://github.com/124578-chj/python-image/blob/main/%E9%A1%B9%E7%9B%AE%E7%B4%A0%E6%9D%90/swin_yolov1.png)  
 如何开始重新训练这个网络。
 运行环境:  
 pytorch 1.8.1+cu111  
@@ -33,7 +33,18 @@ opencv-python 45.2.54
 numpy 1.21.5  
 visdom  0.1.8.9  
 
-训练数据集：VOC2007,  下载链接：(http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html)
+训练/测试数据集：VOC2007,  下载链接：(http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html)
+把数据集存在一个不包含中文路径的任意文件中。
+
+开始训练，执行train.py
+num_class=20  数据集的类别数
+img_size = 224  图片的长宽尺寸
+batch_size=128  单次训练的数据量
+epochs=2001  所有数据训练的次数
+learning_rate=0.01  初始学习率
+model_weight = r''  预训练模型文件路径，刚开始可不填写，在后续追加训练中，可以填入保存的模型路径。
+data_path = r'C:\Users\Administrator\Desktop\VOCdevkit\VOC2007'  数据集的路径 
+
 
 
 
