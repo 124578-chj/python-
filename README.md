@@ -46,7 +46,7 @@ model_weight = r''  预训练模型文件路径，刚开始可不填写，在后
 data_path = r'C:\Users\Administrator\Desktop\VOCdevkit\VOC2007'  数据集的路径   
 **运行之前先从终端打开观察端口：python -m visdom.server -p 6006**  
 
-开始测试：执行test_one.py文件，可以选择测试一张图片/测试一段视频/测试实时摄像头
+开始测试：执行test_one.py文件，可以选择测试一张图片/测试一段视频/测试实时摄像头  
 计算测试集中的整体准确度，运行print_mAP.py
 
 这个模型整体灵活性较大，可以根据需求修改训练的模型，损失函数，优化器等，此外还可以根据需要训练自己的数据集。
