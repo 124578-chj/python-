@@ -44,7 +44,7 @@ epochs=2001  所有数据训练的次数
 learning_rate=0.01  初始学习率  
 model_weight = r''  预训练模型文件路径，刚开始可不填写，在后续追加训练中，可以填入保存的模型路径    
 data_path = r'C:\Users\Administrator\Desktop\VOCdevkit\VOC2007'  数据集的路径   
-*运行之前先从终端打开观察端口：python -m visdom.server -p 6006*  
+**运行之前先从终端打开观察端口：python -m visdom.server -p 6006**  
 
 
 
